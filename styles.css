@@ -1,0 +1,38 @@
+.question-container {
+  margin: 20px;
+}
+
+.radio-button {
+  cursor: pointer;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.radio-button:hover {
+  background-color: #f0f0f0;
+}
+
+.result-image {
+  display: none;
+  margin-left: 10px;
+  width: 0px;
+  height: 0px;
+  border-radius: 5px;
+}
+
+.result-image img {
+  /* display: none; */
+  position: absolute;
+  top: 2px;
+  right: -1px;
+  display: inline-block;
+  vertical-align:middle;  
+  max-width: 100%;
+  max-height: 26px;
+}
+
+
